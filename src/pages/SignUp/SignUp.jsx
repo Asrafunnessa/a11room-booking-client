@@ -1,29 +1,58 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 import { Link } from 'react-router-dom';
 import img from '../../assets/images/login/login.svg'
-// import { useContext } from 'react';
-// import { AuthContext } from '../../providers/AuthProvider';
+import { useContext } from 'react';
+import { AuthContext } from '../../providers/AuthProvider';
+import { useLocation, useNavigate } from "react-router-dom";
+
+// const auth = getAuth();
 
 const SignUp = () => {
 
-    // const { createUser } = useContext(AuthContext);
-
-    // const handleSignUp = event => {
-    //     event.preventDefault();
-    //     const form = event.target;
-    //     const name = form.name.value;
-    //     const email = form.email.value;
-    //     const password = form.password.value;
-    //     console.log(name, email, password)
+    const { createUser } = useContext(AuthContext);
+    const { createNewUser} =useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate();
 
 
-    //     createUser(email, password)
-    //         .then(result => {
-    //             const user = result.user;
-    //             console.log('created user', user)
-    //         })
-    //         .catch(error => console.log(error))
+    const handleSignUp = e => {
+        e.preventDefault();
+        console.log(e.currentTarget);
+        const form = new FormData(e.currentTarget);
 
-    // }
+        const email = form.get("email");
+        const photo = form.get("photo");
+        const password = form.get("password");
+        const name = form.get("name");
+        console.log(email, password, name, photo);
+
+        
+        createUser(email, password)
+        .then(result => {
+            console.log(result.user);
+        })
+        .catch(error => {
+            console.error(error);
+        })
+
+        createNewUser(email, password)
+        .then (() => {
+            updateProfile(auth.currentUser, {
+                displayName: name,
+                photoURL: photo,
+            })
+            .then(() => {})
+            .catch((error) => {
+                console.log(error);
+            });
+            console.log(result.user);
+            navigate(location?.state ? location.state : "/");
+            
+        })
+    }
+    
+
 
     return (
         <div className="hero min-h-screen bg-base-200">
@@ -34,8 +63,7 @@ const SignUp = () => {
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">
                         <h1 className="text-3xl text-center font-bold">Sign Up</h1>
-                        {/* <form onSubmit={handleSignUp}> */}
-                        <form>
+                        <form onSubmit={handleSignUp}>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Name</span>

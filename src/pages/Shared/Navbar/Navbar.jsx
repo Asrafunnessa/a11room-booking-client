@@ -1,33 +1,26 @@
 import { Link } from "react-router-dom";
 import logo from '../../../assets/hotello_logo.svg';
-// import { useContext } from "react";
-// import { AuthContext } from "../../../providers/AuthProvider";
+import { useContext } from "react";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 
 
 const Navbar = () => {
 
-    // const {user, logOut} = useContext(AuthContext)
+    const {user, logOut} = useContext(AuthContext)
 
-    // const handleLogOut = () => {
-    //     logOut()
-    //     .then(() => {})
-    //     .catch( error => console.log(error))
-    // }
+    const handleLogOut = () => {
+        logOut()
+        .then(() => {})
+        .catch( error => console.log(error))
+    }
 
     const navItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/rooms">Rooms</Link></li>
         <li><Link to="/bookings">My Booking</Link></li>
-        <li><Link to="/login">Login</Link></li>
         <li><Link to="/signup">SignUp</Link></li>
-        {/* {
-        user?. email ? <>
-            <li><Link to="/bookings">My Bookings</Link></li> 
-            <li><button onClick={handleLogOut}>Log Out</button></li> 
-        </>
-        : <li><Link to="/login">Login</Link></li>
-        } */}
+
     </>
 
     return (
@@ -51,12 +44,20 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+                <p>{user?.displayName}</p>
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
-                        <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        <img src={user?.photoURL} alt="" />
                     </div>
                 </label>
-                <button className="btn btn-outline btn-warning">LOGIN</button>
+                {
+                    user ?
+                        <button onClick={handleLogOut} className="btn">Sign Out</button>
+                        :
+                        <Link to="/login">
+                            <button className="btn">Login</button>
+                        </Link>
+                }
             </div>
         </div>
     );
