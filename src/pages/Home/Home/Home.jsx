@@ -1,9 +1,11 @@
 import Banner from "../Banner/Banner";
+import Newsletter from "../Newsletter/Newsletter";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            <Newsletter></Newsletter>
             {/* <h2>This is Home</h2> */}
         </div>
     );
