@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
 import FeaturedRoom from "../FeaturedRoom/FeaturedRoom";
 import Newsletter from "../Newsletter/Newsletter";
+import Offers from "../Offers/Offers";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <Banner></Banner>
             <Newsletter></Newsletter>
             <FeaturedRoom></FeaturedRoom>
+            <Offers></Offers>
             {/* <h2>This is Home</h2> */}
         </div>
     );
