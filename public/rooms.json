@@ -8,7 +8,6 @@
       "price_per_night": 100,
       "room_size": "25 sqm",
       "availability": true,
-      "room_images": ["https://example.com/standard_room_1.jpg", "https://example.com/standard_room_2.jpg"],
       "special_offers": "10% off for stays longer than 3 nights."
     },
     {
@@ -20,7 +19,6 @@
       "price_per_night": 150,
       "room_size": "35 sqm",
       "availability": true,
-      "room_images": ["https://example.com/deluxe_room_1.jpg", "https://example.com/deluxe_room_2.jpg"],
       "special_offers": "Complimentary breakfast for all guests."
     },
     {
@@ -32,7 +30,6 @@
       "price_per_night": 300,
       "room_size": "60 sqm",
       "availability": true,
-      "room_images": ["https://example.com/suite_1.jpg", "https://example.com/suite_2.jpg"],
       "special_offers": "Free access to the spa and wellness center."
     },
     {
@@ -44,7 +41,6 @@
       "price_per_night": 200,
       "room_size": "30 sqm",
       "availability": true,
-      "room_images": ["https://example.com/ocean_view_room_1.jpg", "https://example.com/ocean_view_room_2.jpg"],
       "special_offers": ""
     },
     {
@@ -56,7 +52,6 @@
       "price_per_night": 350,
       "room_size": "70 sqm",
       "availability": true,
-      "room_images": ["https://example.com/family_suite_1.jpg", "https://example.com/family_suite_2.jpg"],
       "special_offers": "Complimentary children's activities during the stay."
     },
     {
@@ -68,7 +63,6 @@
       "price_per_night": 500,
       "room_size": "100 sqm",
       "availability": true,
-      "room_images": ["https://example.com/penthouse_1.jpg", "https://example.com/penthouse_2.jpg"],
       "special_offers": "Personalized butler service available upon request."
     },
     {
@@ -80,7 +74,6 @@
       "price_per_night": 400,
       "room_size": "80 sqm",
       "availability": true,
-      "room_images": ["https://example.com/bungalow_1.jpg", "https://example.com/bungalow_2.jpg"],
       "special_offers": "Exclusive access to the private beach."
     },
     {
@@ -92,7 +85,6 @@
       "price_per_night": 180,
       "room_size": "30 sqm",
       "availability": true,
-      "room_images": ["https://example.com/executive_room_1.jpg", "https://example.com/executive_room_2.jpg"],
       "special_offers": "Complimentary airport shuttle service."
     },
     {
@@ -104,7 +96,6 @@
       "price_per_night": 220,
       "room_size": "40 sqm",
       "availability": true,
-      "room_images": ["https://example.com/cottage_1.jpg", "https://example.com/cottage_2.jpg"],
       "special_offers": "Candlelit dinner for two included with the booking."
     },
     {
@@ -116,7 +107,6 @@
       "price_per_night": 450,
       "room_size": "65 sqm",
       "availability": true,
-      "room_images": ["https://example.com/luxury_suite_1.jpg", "https://example.com/luxury_suite_2.jpg"],
       "special_offers": "Complimentary bottle of champagne upon arrival."
     },
     {
@@ -128,7 +118,6 @@
       "price_per_night": 120,
       "room_size": "30 sqm",
       "availability": true,
-      "room_images": ["https://example.com/twin_room_1.jpg", "https://example.com/twin_room_2.jpg"],
       "special_offers": "Free access to the gym and fitness classes."
     },
     {
@@ -140,7 +129,6 @@
       "price_per_night": 280,
       "room_size": "45 sqm",
       "availability": true,
-      "room_images": ["https://example.com/junior_suite_1.jpg", "https://example.com/junior_suite_2.jpg"],
       "special_offers": "Complimentary in-room coffee and tea service."
     },
     {
@@ -152,7 +140,6 @@
       "price_per_night": 230,
       "room_size": "35 sqm",
       "availability": true,
-      "room_images": ["https://example.com/beach_view_room_1.jpg", "https://example.com/beach_view_room_2.jpg"],
       "special_offers": ""
     },
     {
@@ -164,7 +151,6 @@
       "price_per_night": 600,
       "room_size": "120 sqm",
       "availability": true,
-      "room_images": ["https://example.com/villa_1.jpg", "https://example.com/villa_2.jpg"],
       "special_offers": "Private sunset dinner arranged upon request."
     },
     {
@@ -176,7 +162,6 @@
       "price_per_night": 400,
       "room_size": "55 sqm",
       "availability": true,
-      "room_images": ["https://example.com/honeymoon_suite_1.jpg", "https://example.com/honeymoon_suite_2.jpg"],
       "special_offers": "Complimentary couples' massage included with the booking."
     },
     {
@@ -188,7 +173,6 @@
       "price_per_night": 320,
       "room_size": "50 sqm",
       "availability": true,
-      "room_images": ["https://example.com/chalet_1.jpg", "https://example.com/chalet_2.jpg"],
       "special_offers": "Guided hiking tours available upon request."
     },
     {
@@ -200,7 +184,6 @@
       "price_per_night": 800,
       "room_size": "150 sqm",
       "availability": true,
-      "room_images": ["https://example.com/presidential_suite_1.jpg", "https://example.com/presidential_suite_2.jpg"],
       "special_offers": "24-hour personal concierge service available."
     },
     {
@@ -212,7 +195,6 @@
       "price_per_night": 180,
       "room_size": "25 sqm",
       "availability": true,
-      "room_images": ["https://example.com/garden_view_room_1.jpg", "https://example.com/garden_view_room_2.jpg"],
       "special_offers": ""
     }
   ]

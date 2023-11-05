@@ -24,7 +24,6 @@ const Rooms = () => {
                         room={room}
                     ></RoomsCard>)
                 }
-                <p>Rooms: {rooms.length}</p>
             </div>
         </div>
     );

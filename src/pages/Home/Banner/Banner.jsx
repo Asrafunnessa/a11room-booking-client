@@ -15,7 +15,6 @@ const Banner = () => {
                         <p>There Are Many Variations Of Passages Of Available,But The Majority Have Suffered Alteration in Some From</p>
                         <div>
                             <button className='btn btn-primary btn-outline mr-5'>Room Suits</button>
-                            <button className='btn btn-outline btn-secondary'>Latest Project</button>
                         </div>
                     </div>
                 </div>
@@ -32,7 +31,6 @@ const Banner = () => {
                         <p>There Are Many Variations Of Passages Of Available,But The Majority Have Suffered Alteration in Some From</p>
                         <div>
                             <button className='btn btn-primary btn-outline mr-5'>Room Suits</button>
-                            <button className='btn btn-outline btn-secondary'>Latest Project</button>
                         </div>
                     </div>
                 </div>
@@ -49,7 +47,6 @@ const Banner = () => {
                         <p>There Are Many Variations Of Passages Of Available,But The Majority Have Suffered Alteration in Some From</p>
                         <div>
                             <button className='btn btn-primary btn-outline mr-5'>Room Suits</button>
-                            <button className='btn btn-outline btn-secondary'>Latest Project</button>
                         </div>
                     </div>
                 </div>
@@ -66,7 +63,6 @@ const Banner = () => {
                         <p>There Are Many Variations Of Passages Of Available,But The Majority Have Suffered Alteration in Some From</p>
                         <div>
                             <button className='btn btn-primary btn-outline mr-5'>Room Suits</button>
-                            <button className='btn btn-outline btn-secondary'>Latest Project</button>
                         </div>
                     </div>
                 </div>
