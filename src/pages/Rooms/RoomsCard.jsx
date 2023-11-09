@@ -13,7 +13,7 @@ const RoomsCard = ({ room }) => {
                 <h2 className="card-title">{room_type}</h2>
                 <p className="text-xl text-orange-500">Price: ${price_per_night}</p>
                 <div className="card-actions">
-                    <Link to={`/roomsDetails/${_id}`}>
+                    <Link to={`/eachRoomDetails/${_id}`}>
                         <button className="btn btn-primary">Details</button>
                     </Link>
                 </div>

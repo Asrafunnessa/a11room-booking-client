@@ -2,7 +2,7 @@ import logo from '../../../assets/hotello_logo.svg'
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-gray-400 text-base-content">
+        <footer className="footer p-10 bg-gray-400 text-base-content mt-4">
             <aside>
                 <img src={logo} alt="" />
                 <p className='font-bold'>We always strive for growth and <br />
