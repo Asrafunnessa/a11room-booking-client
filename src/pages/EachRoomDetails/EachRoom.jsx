@@ -60,7 +60,7 @@ const EachRoom = () => {
                         <label className="label">
                             <span className="label-text text-2xl text-orange-600 font-bold">Date</span>
                         </label>
-                        <input type="date" name="date" className="input input-bordered" />
+                        <input required type="date" name="date" className="input input-bordered" />
                     </div>
                     <div className="card-actions justify-end my-4">
                         <div className="btn-group btn-group-vertical space-y-4">
