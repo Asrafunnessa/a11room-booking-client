@@ -47,7 +47,7 @@ const EachRoom = () => {
     return (
         <form   onSubmit={handleRoomBook}  >
             <div className="card card-side bg-base-100 shadow-xl mt-4">
-            <figure><img src={img} alt="Movie" /></figure>
+            <figure  className="w-full h-[600px]"><img src={img} alt="Movie" /></figure>
             <div className="flex justify-between w-full p-4">
                 <div>
                     <h2 className="card-title text-3xl"><span className="text-orange-600 font-bold">Name:</span> {room_type}</h2>
