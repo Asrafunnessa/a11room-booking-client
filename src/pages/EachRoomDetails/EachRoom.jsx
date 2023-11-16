@@ -26,7 +26,7 @@ const EachRoom = () => {
              price_per_night
         }
         console.log(booking);
-        fetch('http://localhost:5000/bookings', {
+        fetch('https://room-booking-server-two.vercel.app/bookings', {
             method: 'POST',
             headers: {
                'content-type' : 'application/json'
